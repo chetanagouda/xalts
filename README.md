@@ -47,7 +47,7 @@ This project demonstrates the use of the Page Object Model (POM) design pattern 
 	  - Extend `BasePage.java` to inherit WebDriver and common methods.
    	- Define page-specific web elements and actions.
 
-4. **TestClass.java**:
+4. **TestScenario.java**:
 	- Location: `src\test\java\xalts\TestScenario/`
    - Purpose:
      - Use TestNG to define test methods (`@Test`).
@@ -70,7 +70,11 @@ This project demonstrates the use of the Page Object Model (POM) design pattern 
 - **Maven**: This is for managing dependencies and building execution.
 -**TestNG**: For defining and running tests using annotations (@Test, @BeforeTest, @AfterTest) but without the testng.xml file.
 - **Java**: Programming language used for scripting.
-
+  
+## Credential Management
+-**Email** : testusers@example.com
+-**Password** : TestUser@123
+  
 
 ## Author
 Chetana Gouda
