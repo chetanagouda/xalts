@@ -61,7 +61,7 @@ This project demonstrates the use of the Page Object Model (POM) design pattern 
 2. Open the project in your preferred IDE.
 3. Ensure all dependencies are installed by running.
 4. Run the test suite:
-	-- From the IDE: Right-click on the `TestClass.java` file and select "Run" or "Run as TestNG Test."
+	-- From the IDE: Right-click on the `TestScenario.java` file and select "Run" or "Run as TestNG Test."
 	- From the command line:
 		mvn test
 
