@@ -35,7 +35,7 @@ This project demonstrates the use of the Page Object Model (POM) design pattern 
  
 ## Key Files	
 1. **BasePage.java**:
-	-Location: `\src\main\java\xalts\xalts/`
+	-Location: `\src\main\java\xalts\xalts\`
    	- Purpose:
      	- Initializes the WebDriver instance.
      	- Sets up page elements using `PageFactory`.
@@ -43,12 +43,12 @@ This project demonstrates the use of the Page Object Model (POM) design pattern 
        		- `goToURL(String url)`: Navigates to the specified URL.
 
 2. **PageObject.java**:
-     -Location: `\src\main\java\xalts\xalts/`
+     -Location: `\src\main\java\xalts\xalts\`
 	  - Extend `BasePage.java` to inherit WebDriver and common methods.
    	- Define page-specific web elements and actions.
 
 4. **TestScenario.java**:
-	- Location: `src\test\java\xalts\TestScenario/`
+	- Location: `src\test\java\xalts\TestScenario\`
    - Purpose:
      - Use TestNG to define test methods (`@Test`).
 
@@ -72,9 +72,11 @@ This project demonstrates the use of the Page Object Model (POM) design pattern 
 - **Java**: Programming language used for scripting.
   
 ## Credential Management
--**Email** : testusers@example.com
--**Password** : TestUser@123
-  
+-**Email** : `testusers@example.com`
+-**Password** : `TestUser@123`
 
+**Note:** These are dummy credentials used only for test/demo purposes.  
+-To run the application in a real environment, you must use valid user credentials.
+  
 ## Author
 Chetana Gouda
