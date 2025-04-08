@@ -123,7 +123,7 @@ public class PageObject extends BasePage {
 	    Email.sendKeys(uniqueEmail);
 	    Password.sendKeys(password);
 	    Confirm_password.sendKeys(password);
-	    //Sign_Up.click();
+	    Sign_Up.click();
 	    System.out.println("Sign Up sucessfull.");
 	}
 	}
