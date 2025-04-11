@@ -6,6 +6,8 @@
       <class name="xalts.TestScenario.TestScenario">
         <methods>
           <include name="SignUp"/>
+          <include name="SignOut"/>
+          <include name="CloseBrowser"/>
           <include name="setup"/>
         </methods>
       </class> <!-- xalts.TestScenario.TestScenario -->

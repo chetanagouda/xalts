@@ -15,4 +15,7 @@ public class BasePage {
 	public void goToURL(String url) {
 		driver.get(url);
 	}
+	public WebDriver getDriver() {
+ 	    return this.driver;
+ 	}
 }
