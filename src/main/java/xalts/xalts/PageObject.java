@@ -2,6 +2,7 @@ package xalts.xalts;
 import java.time.Duration;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +14,7 @@ public class PageObject extends BasePage {
 
 	public PageObject(WebDriver driver) {
 		//Define the constructor
-		super(driver);
+		super(driver);//calling basepage constructor
 		
 	}
 	//Locate the Elements
@@ -126,4 +127,6 @@ public class PageObject extends BasePage {
 	    //Sign_Up.click();
 	    System.out.println("Sign Up sucessfull.");
 	}
+	
 	}
+	
